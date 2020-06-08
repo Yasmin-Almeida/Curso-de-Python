@@ -3,5 +3,5 @@ n = int(input('Digite um número para ver sua tabuada: '))
 print('-' * 20)
 print(f'Tabuada do número {n}:')
 for i in range (0, 11): 
-  print(f'{n} X {i} = {n*i}')
+  print(f'{n} X {i} = {n * i}')
 print('-' * 20)
