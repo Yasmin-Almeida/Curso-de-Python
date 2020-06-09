@@ -5,3 +5,4 @@ print(f'Tabuada do número {n}:')
 for i in range (0, 11): 
   print(f'{n} X {i} = {n * i}')
 print('-' * 20)
+#Houve uma redução em 356 bytes em relação ao programa "Exercício #009 - Tabuada".
