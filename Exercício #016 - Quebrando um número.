@@ -1,0 +1,9 @@
+'''
+Crie um programa que leia um número real qualquer pelo teclado e mostre na tela a sua porção inteira.
+Exemplo: Digite um número: 6.127
+O número digitado foi 6.127 e sua porção inteira é 6.
+'''
+from math import trunc
+num = float(input('Digite um número: '))
+inteiro = trunc(num)
+print(f'O número digitado foi {num} e sua porção inteira é {inteiro}.')
